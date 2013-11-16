@@ -1,6 +1,6 @@
 # generator-bootgap [![Build Status](https://secure.travis-ci.org/ericrallen/generator-bootgap.png?branch=master)](https://travis-ci.org/ericrallen/generator-bootgap)
 
-A PhoneGap with jQuery and Bootstrap generator for [Yeoman](http://yeoman.io), useful for quickly prototyping app ideas.
+Generates a PhoneGap App with jQuery 2 and Bootstrap 3 optimized for PhoneGap Build. It is useful for quickly prototyping app ideas.
 
 
 ## Getting Started

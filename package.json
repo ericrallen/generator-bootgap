@@ -1,7 +1,7 @@
 {
   "name": "generator-bootgap",
   "version": "0.0.1",
-  "description": "A PhoneGap with jQuery and Bootstrap generator for Yeoman, useful for quickly prototyping app ideas.",
+  "description": "Generates a PhoneGap App with jQuery 2 and Bootstrap 3 optimized for PhoneGap Build",
   "keywords": [
     "yeoman-generator, bootstrap, jquery, phonegap"
   ],
