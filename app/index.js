@@ -54,11 +54,24 @@ BootgapGenerator.prototype.app = function app() {
   this.mkdir('www/res/icon/android');
   this.mkdir('www/res/screen/android');
   this.mkdir('www/res/screen/ios');
+  this.mkdir('www/assets/components');
+  this.mkdir('www/assets/components/bootstrap');
+  this.mkdir('www/assets/components/bootstrap/dist');
+  this.mkdir('www/assets/components/bootstrap/dist/css');
+  this.mkdir('www/assets/components/bootstrap/dist/fonts');
+  this.mkdir('www/assets/components/bootstrap/dist/js');
 
   this.copy('_package.json', 'package.json');
   this.copy('_bowerrc', '.bowerrc');
   this.copy('_bower.json', 'bower.json');
   this.copy('phonegap/index.js', 'www/assets/js/index.js');
+  this.copy('bootstrap/css/bootstrap.min.css', 'www/assets/components/bootstrap/dist/css/bootstrap.min.css');
+  this.copy('bootstrap/css/bootstrap-theme.min.css', 'www/assets/components/bootstrap/dist/css/bootstrap-theme.min.css');
+  this.copy('bootstrap/js/bootstrap.min.js', 'www/assets/components/bootstrap/dist/js/bootstrap.min.js');
+  this.copy('bootstrap/fonts/glyphicons-halflings-regular.eot', 'www/assets/components/bootstrap/dist/fonts/glyphicons-halflings-regular.eot');
+  this.copy('bootstrap/fonts/glyphicons-halflings-regular.svg', 'www/assets/components/bootstrap/dist/fonts/glyphicons-halflings-regular.svg');
+  this.copy('bootstrap/fonts/glyphicons-halflings-regular.ttf', 'www/assets/components/bootstrap/dist/fonts/glyphicons-halflings-regular.ttf');
+  this.copy('bootstrap/fonts/glyphicons-halflings-regular.woff', 'www/assets/components/bootstrap/dist/fonts/glyphicons-halflings-regular.woff');
 
   this.template('phonegap/_index.html', 'www/index.html');
   this.template('phonegap/_config.xml', 'www/config.xml');
