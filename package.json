@@ -1,0 +1,41 @@
+{
+  "name": "generator-bootgap",
+  "version": "0.0.1",
+  "description": "A PhoneGap with jQuery and Bootstrap generator for Yeoman, useful for quickly prototyping app ideas.",
+  "keywords": [
+    "yeoman-generator, bootstrap, jquery, phonegap"
+  ],
+  "homepage": "https://github.com/ericrallen/generator-bootgap",
+  "bugs": "https://github.com/ericrallen/generator-bootgap/issues",
+  "author": {
+    "name": "Eric Allen",
+    "email": "decoy@internetalche.me",
+    "url": "https://github.com/ericrallen"
+  },
+  "main": "app/index.js",
+  "repository": {
+    "type": "git",
+    "url": "git://github.com/ericrallen/generator-bootgap.git"
+  },
+  "scripts": {
+    "test": "mocha"
+  },
+  "dependencies": {
+    "yeoman-generator": "~0.13.0"
+  },
+  "devDependencies": {
+    "mocha": "~1.12.0"
+  },
+  "peerDependencies": {
+    "yo": ">=1.0.0"
+  },
+  "engines": {
+    "node": ">=0.8.0",
+    "npm": ">=1.2.10"
+  },
+  "licenses": [
+    {
+      "type": "MIT"
+    }
+  ]
+}
