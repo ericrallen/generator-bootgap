@@ -39,9 +39,9 @@ After providing your app name and package name, start coding.
 
 When you are ready to build the app:
 
-`phonegap create {path to your app}`
-
 `phonegap build [platform]`
+
+**NOTE**: If you want the plugins, platforms, merges, and .cordova directories in your git repo, edit the `.gitignore` file. These are ignored by default since PhoneGap Build doesn't use them.
 
 ### Getting To Know Yeoman
 

@@ -1,1 +1,4 @@
 .cordova
+plugins
+platforms
+merges

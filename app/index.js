@@ -61,6 +61,11 @@ BootgapGenerator.prototype.app = function app() {
   this.mkdir('www/assets/components/bootstrap/dist/fonts');
   this.mkdir('www/assets/components/bootstrap/dist/js');
 
+  this.mkdir('plugins');
+  this.mkdir('platforms');
+  this.mkdir('.cordova');
+  this.mkdir('merges');
+
   this.copy('_package.json', 'package.json');
   this.copy('_bowerrc', '.bowerrc');
   this.copy('_bower.json', 'bower.json');
