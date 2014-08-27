@@ -1,4 +1,4 @@
-# generator-bootgap [![Build Status](https://secure.travis-ci.org/ericrallen/generator-bootgap.png?branch=master)](https://travis-ci.org/ericrallen/generator-bootgap)
+# generator-bootgap
 
 Generates a PhoneGap App with jQuery 2 and Bootstrap 3 optimized for PhoneGap Build. It is useful for quickly prototyping app ideas.
 
